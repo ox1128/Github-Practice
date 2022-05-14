@@ -1,0 +1,67 @@
+/* Cascading Style Sheet */
+/* 선택자 (selector) */
+body {
+    margin: 0;
+}
+
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    background-color: #24292f;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 16px 32px;
+
+}
+
+#header-content {
+    display: flex;
+    align-items: center;
+}
+
+#header-content img {
+    width: 37px;
+    height: 37px;
+    margin-right: 16px;
+}
+
+#header-search input{
+    width: 270px;
+    height: 30px;
+    padding-left: 10px;
+    padding: 0;
+    border: solid 1px #57606a;
+    background-color: #24292f;
+    border-radius: 6px;
+    color: #88b0cb;
+    box-shadow: none;
+    font-style: italic;
+}
+.header-menu a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding-left: 16px;
+}
+#header-content-right {
+    display:flex;
+    flex-direction: row;
+}
+#header-content-right .header-bell {
+    padding-right: 16px;
+}
+
+
+header svg {
+    fill:white;
+}
