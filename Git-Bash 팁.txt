@@ -1,0 +1,17 @@
+Git-Bash 업로드 방법
+1) Github-Practice에 폴더 두기
+2) git add . 입력
+3) git commit -m "memo in here" 입력
+4) git push origin main 입력
+_______________________________________________________________________________
+Git-Bash 다운로드 방법
+1) git init 입력(Github-Practice 폴더를 메인으로 두고)
+2) git remote '프로젝트 Code 복사' 입력
+3) git pull origin main 입력
+_______________________________________________________________________________
+* cd Github-Practice 폴더이동하기
+* cd 폴더 나가기
+* ls 해당 폴더 내에 파일 보기
+* git init 감시대상폴더 정하기(Github-Practice를 메인으로 두고 git init 입력)
+
+ 
