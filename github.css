@@ -12,14 +12,14 @@ body {
     margin: -1px;
     overflow: hidden;
 }
-
+/*헤더*/
 header {
     display: flex;
     background-color: #24292f;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    padding: 16px 32px;
+    padding: 15px 32px;
 
 }
 
@@ -58,10 +58,95 @@ header {
     flex-direction: row;
 }
 #header-content-right .header-bell {
-    padding-right: 16px;
+    margin-right: 16px;
 }
 
+.header-plus {
+    margin-right: 16px;
+}
+
+#header-profile {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    background-image: url(./profile.png);
+    background-size: cover;
+    border-radius: 50%;
+}
 
 header svg {
     fill:white;
+}
+
+/*바디*/
+#body-top {
+    margin-top: 24px;
+    height: 48px; 
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid hsl(210deg 18% 87%);
+    padding-left: 5px;
+}
+.body-top-content-overview svg {
+    margin-bottom: -3px;
+}
+
+.body-top-content svg {
+    margin-bottom: -3px;
+}
+
+.body-top-content {
+    padding: 12px 16px;
+}
+
+.body-top-content-overview {
+    padding: 15px 6px;
+    border-bottom: 2px solid orange;
+    color: #24292f;
+    font-size: 14px;
+    font-weight: bold;
+    width: 84px;
+}
+.body-top-content-overview a {
+    text-decoration: none;
+}
+.body-top-content a {
+    text-decoration: none;
+    color: #24292f;
+    font-size: 14px;
+}
+
+#main-body {
+    width: auto;
+    display: flex;
+    height: auto;
+    justify-content: center;
+}
+
+#body-left {
+    width: 296px;
+    height: 1598px;
+    display: flex;
+    margin-right: 930px;
+    margin-top: -33px;
+}
+
+#profile-image img {
+    width: 296px;
+    height: 296px;
+    border: 2px solid hsl(210deg 18% 87%);
+    border-radius: 50%;
+    }
+
+.profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.profile-nickname {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: -17px;
+    color: #57606a;
 }
