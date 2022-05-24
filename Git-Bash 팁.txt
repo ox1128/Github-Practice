@@ -3,6 +3,15 @@ Git-Bash 업로드 방법
 2) git add . 입력
 3) git commit -m "memo in here" 입력
 4) git push origin main 입력
+
+or
+
+cmd 창에서
+1) cd Github-Practice
+2) git add .
+3) git commit -m "memo in here" 입력
+4) git push
+
 _______________________________________________________________________________
 Git-Bash 다운로드 방법
 1) git init 입력(Github-Practice 폴더를 메인으로 두고)
