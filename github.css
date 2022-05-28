@@ -276,6 +276,8 @@ header svg {
 }
 
 #pinned {
+    width: 900px;
+    height: 310px;
     color: black;
     justify-content: center;
     display: inline-block;
@@ -453,4 +455,38 @@ header svg {
     margin: 0;
     margin-top: -18px;
     margin-left: 32px;
+}
+/*Pinned End*/
+
+#contributions {
+    width: 894px;
+    height: 200px;
+    position: absolute;
+    margin-left: 26px;
+    margin-top: 312px;
+
+}
+#contri-box {
+    width: 894px;
+    height: 200px;
+    border: 1px solid hsl(210deg 18% 87%);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-top: -6px;
+}
+.contri-calendar svg {
+    margin-top: 11px;
+    margin-left: 37px;
+    font-size: 11px;
+    fill: hsl(210deg 18% 87%);
+}
+.contri-calendar text {
+    color: black;
+}
+.contri-learn {
+    margin-top: 0px;
+    margin-left: 42px;
+    font-size: 11px;
+    display: inline-block;
+    text-decoration: none;
 }
