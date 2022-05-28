@@ -462,6 +462,7 @@ header svg {
     width: 894px;
     height: 200px;
     position: absolute;
+    display: inline-block;
     margin-left: 26px;
     margin-top: 312px;
 
@@ -473,6 +474,7 @@ header svg {
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     margin-top: -6px;
+    display: inline-block;
 }
 .contri-calendar svg {
     margin-top: 11px;
@@ -489,4 +491,39 @@ header svg {
     font-size: 11px;
     display: inline-block;
     text-decoration: none;
+    margin-bottom: 0;
+}
+
+#less-more-block {
+    display: inline-block;
+    position: absolute;
+    margin-left: 517px;
+    margin-top: -13px;
+    fill: hsl(210deg 18% 87%);
+}
+#less-more-block p{
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+#vr-link p {
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 595px;
+    margin-top: 0px;
+}
+
+#vr-link a {
+    text-decoration: none;
+    font-size: 12px;
+    display: inline-block;
+}
+#contri-activity {
+    display: inline-block;
+    position: absolute;
+    margin-top: 572px;
+    margin-left: 28px;
+}
+#contri-activity p {
+    font-size: 16px;
 }
