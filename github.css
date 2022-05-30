@@ -524,6 +524,129 @@ header svg {
     margin-top: 572px;
     margin-left: 28px;
 }
-#contri-activity p {
+#contri-activity .contri-act {
     font-size: 16px;
+}
+#contri-date {
+    font-size: 11px;
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 4px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+#horizontal-line {
+    border-top: 1px solid hsl(210deg 18% 87%);
+    width: 669px;
+    margin-top: 27px;
+    margin-left: 76px;
+}
+
+#vertical-line {
+    border-left: 2px solid hsl(210deg 18% 87%);
+    height: 500px;
+    margin-top: 17px;
+    margin-left: 13px;
+    position: absolute;
+}
+
+.octicon-repo-push {
+    z-index: 2;
+    position: absolute;
+    margin-top: 34px;
+    fill: #57606a;
+    background-color: #eaeef2;
+    padding: 6px;
+    border-radius: 40%;
+}
+.octicon-fold {
+    margin-top: 5px;
+    margin-right: -1px;
+    display: inline-block;
+    float: right;
+    fill: #57606a;
+}
+
+.content-title {
+    text-decoration: none;
+    margin-top: 36px;
+    margin-left: 39px;
+}
+.content-link1 {
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    color: blue;
+    font-size: 13px;
+    margin-top: 29px;
+    margin-left: -269px;
+}
+.content-commit1 {
+    position: absolute;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: -37px;
+}
+.status-bar1 {
+    width: 103px;
+        border-top: 8px solid #2da44e;
+        display: inline-block;
+        position: absolute;
+        margin-top: 34px;
+        margin-left: 260px;
+        border-radius: 36px;
+}
+.content-link2 {
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    color: blue;
+    font-size: 13px;
+    margin-top: 55px;
+    margin-left: -269px;
+}
+.content-commit2 {
+    position: absolute;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 56px;
+    margin-left: -135px;
+}
+.status-bar2 {
+    width: 57px;
+    border-top: 8px solid #40c463;
+    display: inline-block;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 260px;
+    border-radius: 36px;
+}
+.content-link3 {
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    color: blue;
+    font-size: 13px;
+    margin-top: 81px;
+    margin-left: -269px;
+}
+.content-commit3 {
+    position: absolute;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 82px;
+    margin-left: -160px;
+}
+.status-bar3 {
+    width: 20px;
+    border-top: 8px solid #9be9a8;
+    display: inline-block;
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 260px;
+    border-radius: 36px;
 }
